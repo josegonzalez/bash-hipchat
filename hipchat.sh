@@ -12,16 +12,17 @@ do
   case $opt
   in
     h)
-      echo "hipchat"
+      echo "hipchat.sh"
       echo ""
       echo "usage:"
-      echo "  -h - This help screen"
-      echo "  -a - Authentication token (no default)"
-      echo "  -c - Color of notification (default: yellow)"
-      echo "  -f - Who to send from (default: Nobody)"
-      echo "  -m - Message format (default: html)"
-      echo "  -n - Whether to notify channel users (default: 0)"
-      echo "  -r - Room id (default: 31226)"
+      echo ""
+      echo "  -h                - This help screen"
+      echo "  -a AUTH_TOKEN     - Authentication token (no default)"
+      echo "  -c COLOR          - Color of notification (default: yellow)"
+      echo "  -f FROM           - Who to send from (default: Nobody)"
+      echo "  -m MESSAGE_FORMAT - Message format (default: html)"
+      echo "  -n NOTIFY         - Whether to notify channel users (default: 0)"
+      echo "  -r ROOM_ID        - Room id (default: 31226)"
       exit 0
       ;;
     a)
