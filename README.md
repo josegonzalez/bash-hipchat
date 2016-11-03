@@ -25,17 +25,17 @@ Then clone this repo there
 
 Then add this directory to your `PATH` within your `.bashrc` or `.bash_profile`:
 
-    export PATH=${PATH}:${HOME}/scripts/hipchat.sh
+    export PATH=${PATH}:${HOME}/scripts/hipchat
 
 # Usage
 
 Run the following command:
 
-    hipchat.sh -h
+    hipchat -h
 
 To get usage instructions:
 
-    hipchat.sh
+    hipchat
 
     usage:
 
