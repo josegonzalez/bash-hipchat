@@ -1,4 +1,4 @@
-# hipchat.sh
+# bash-hipchat
 
 Send hipchat notifications from the command line
 
@@ -21,7 +21,7 @@ Create a directory to hold your personal shell scripts:
 Then clone this repo there
 
     cd ~/scripts
-    git clone https://github.com/josegonzalez/hipchat.sh.git
+    git clone https://github.com/josegonzalez/bash-hipchat.git
 
 Then add this directory to your `PATH` within your `.bashrc` or `.bash_profile`:
 
