@@ -12,7 +12,7 @@ do
   case $opt
   in
     h)
-      echo "hipchat.sh"
+      echo "hipchat"
       echo ""
       echo "usage:"
       echo ""
